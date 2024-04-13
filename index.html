@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JOHAN</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perfil.png" alt="">
+            </div>
+            <h1>JOHAN STIVEN MONSALVE ABELLO</h1>
+            <br>
+            <h4>full stack developer </h4>
+
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Johan Monsalve 👋.</span>Soy un desarrollador web calificado y profesional con cuatro años de experiencia solida en administración de bases de datos y diseño de sitios web. Con Fuertes habilidades creativas y analíticas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 3001923638
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            estivenabello11@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Pais De Residencia</strong>
+                            Bogota, Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrolladr Full Stack</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                    
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <button id="btnDescargarCV">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <span>Reactjs</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="skill">
+                    <span>NodeJS</span>
+                    <div class="barra-skill">
+                        <div class="progreso">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                </div>
+        
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+
+         </div>
+
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Experiencia</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">REFRISOFT</span>
+                        <span class="fecha">2019 - 2021</span>
+                        <p>Página Web RefriSoft: Tu Solución Integral para la Administración de Refrigerios Escolares RefriSoft es una plataforma en línea especializada en la gestión eficiente y segura de los servicios de refrigerios en colegios públicos. Nuestra misión es simplificar la logística y administración de los refrigerios escolares, asegurando que los estudiantes reciban alimentos saludables y nutritivos de manera puntual y organizada</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>EOC</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>La página web de EOC destaca por su diseño intuitivo y moderno, reflejando nuestra dedicación a la excelencia en servicios eléctricos. Con una interfaz fácil de navegar, te damos la bienvenida a un espacio virtual donde la eficiencia y la innovación se encuentran. Los colores vibrantes y la disposición organizada te guían a través de nuestras áreas de especialización, desde instalaciones residenciales hasta proyectos industriales. Nuestro sitio web está diseñado para ofrecer una experiencia informativa completa. Presentamos nuestros servicios con imágenes de alta calidad y descripciones detalladas, brindando una visión clara de nuestro compromiso con la calidad y la seguridad en cada proyecto eléctrico. Además, nuestra sección de contacto está estratégicamente ubicada, facilitando la comunicación directa y la solicitud de servicios personalizados.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+
+                            
+                    <div class="item der">
+                        <h4>GHANJADROPS</h4>
+                        <span class="casa"></span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>En Ghanjadrops, el arte urbano cobra vida. Somos más que una plataforma; somos el espacio digital donde los artistas pueden elevar su voz y mostrar su talento al mundo. Desde música hasta visuales impactantes, ofrecemos un escenario para exhibir tu creatividad en toda su grandeza. Nuestra plataforma es tu lienzo. Aquí, puedes compartir tus fotos, música y videos originales, mientras impulsas tus productos únicos hacia una audiencia global. Fusionamos el alma del arte urbano con lo último en tecnología para ofrecerte una experiencia incomparable. Ghanjadrops es el lugar donde cada artista se encuentra en casa, cada obra cuenta una historia y cada pulsación es un latido que resuena en todo el mundo. Únete a nosotros y forma parte de esta comunidad donde el arte urbano encuentra su espacio y brilla con luz propia. Descubre tu potencial creativo en Ghanjadrops: donde el arte urbano se encuentra con la innovación digital.</p>
+                
+                    </div>
+            
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://github.com/JohanMonsalveAbello/REFRISOFT.git">
+                    <img src="img/PAGINA INICIAL RST.png" alt="">
+                    <div class="overlay">
+                        <h3>REFRISOFT</h3>
+                        <p>Administracion de refrigerios</p>
+                        
+                    </div>
+                </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/JohanMonsalveAbello/PROYECTOSENA.git">
+                    <img src="img/GHANJADROPS FOTO.png" alt="">
+                    <div class="overlay">
+                        <h3>GHANJADROPS</h3>
+                        <p>Arte Urnbano</p>
+                    </a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <a href="https://github.com/JohanMonsalveAbello/EOC.git">
+                    <img src="img/EOC.png" alt="">
+                    <div class="overlay">
+                        <h3>EOC</h3>
+                        <p>Administracion pagina publicitaria</p>
+                    </div>
+                </a>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+
+        <center>
+           <h2>CONTACTO</h2>
+        <div class="badge-base LI-profile-badge" data-locale="es_ES" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="johan-stiven-monsalve-abello-0a61352b1" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://co.linkedin.com/in/johan-stiven-monsalve-abello-0a61352b1?trk=profile-badge">Johan stiven Monsalve Abello</a></div>
+    </center>    
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
