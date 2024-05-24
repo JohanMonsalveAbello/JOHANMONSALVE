@@ -26,9 +26,9 @@ function efectoHabilidades(){
         habilidades[2].classList.add("PYTHON");
         habilidades[3].classList.add("htmlcss");
         habilidades[4].classList.add("Reactjs");
-        habilidades[5].classList.add("Angular");
-        habilidades[6].classList.add("NodeJS");
-        habilidades[7].classList.add("wordpress");
+        habilidades[5].classList.add("Flutter");
+        habilidades[6].classList.add("Angular");
+        habilidades[7].classList.add("NodeJS");
          habilidades[8].classList.add("comunicacion");
         habilidades[9].classList.add("trabajo");
         habilidades[10].classList.add("creatividad");

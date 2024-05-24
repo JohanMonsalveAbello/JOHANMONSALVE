@@ -316,16 +316,24 @@ html{
 }
 @keyframes Reactjs {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 95%;}
 }
 
+.skills .skill .Flutter{
+    width: 0%;
+    animation: 2s Flutter forwards;
+}
+@keyframes Flutter {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
 .skills .skill .Angular{
     width: 0%;
     animation: 2s Angular forwards;
 }
 @keyframes Angular {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 81%;}
 }
 
 .skills .skill .NodeJS{
@@ -339,14 +347,7 @@ html{
 
 
 
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
+
 
 
 
