@@ -288,7 +288,7 @@ html{
 }
 @keyframes PHP {
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .PYTHON{
@@ -297,7 +297,7 @@ html{
 }
 @keyframes PYTHON {
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 80%;}
 }
 
 
@@ -307,7 +307,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .Reactjs{
@@ -316,34 +316,11 @@ html{
 }
 @keyframes Reactjs {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 70%;}
 }
 
-.skills .skill .Flutter{
-    width: 0%;
-    animation: 2s Flutter forwards;
-}
-@keyframes Flutter {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-.skills .skill .Angular{
-    width: 0%;
-    animation: 2s Angular forwards;
-}
-@keyframes Angular {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
 
-.skills .skill .NodeJS{
-    width: 0%;
-    animation: 2s NodeJS forwards;
-}
-@keyframes NodeJS {
-    0%{width: 0%;}
-    100%{width: 85%;}
-}
+
 
 
 
@@ -387,14 +364,7 @@ html{
     100%{width: 100%;}
 }
 
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
-}
+¿
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
