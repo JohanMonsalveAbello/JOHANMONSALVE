@@ -6,8 +6,24 @@
     padding: 0;
 }
 h4{
-    font-size: 30px;
+    font-size: 2vw;
     
+}
+.tl{
+ color:#fff;
+ font-size: 1.4vw;
+ text-align: center;
+ 
+}
+.cont{
+    border:1px solid #ccc;
+     padding:10px; 
+     width:40vw;
+      margin:auto; 
+      padding: 5vw;
+        border-radius:8px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://static.vecteezy.com/system/resources/thumbnails/038/002/445/small/ai-generated-side-view-of-a-woman-working-on-a-laptop-at-night-in-the-city-concept-of-technology-and-business-photo.jpg);
+ 
 }
 html{
     /* me permite deslizar cuando hago clic en los links del menu */
@@ -22,6 +38,7 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
+    font-size: 1.3vw;
 }
 .contenedor-header header{
     max-width: 1100px;
@@ -62,7 +79,7 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(https://img.freepik.com/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010125.jpg?semt=ais_hybrid&w=740&q=80);
     background-size: cover;
     height: 100vh;
