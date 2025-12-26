@@ -280,7 +280,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 100%;}
+    100%{width: 80%;}
 }
 .skills .skill .PHP{
     width: 0%;
