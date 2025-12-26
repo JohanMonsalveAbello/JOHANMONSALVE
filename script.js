@@ -26,14 +26,11 @@ function efectoHabilidades(){
         habilidades[2].classList.add("PYTHON");
         habilidades[3].classList.add("htmlcss");
         habilidades[4].classList.add("Reactjs");
-        habilidades[5].classList.add("Flutter");
-        habilidades[6].classList.add("Angular");
-        habilidades[7].classList.add("NodeJS");
-         habilidades[8].classList.add("comunicacion");
-        habilidades[9].classList.add("trabajo");
-        habilidades[10].classList.add("creatividad");
-        habilidades[11].classList.add("dedicacion");
-        habilidades[12].classList.add("proyect");
+         habilidades[5].classList.add("comunicacion");
+        habilidades[6].classList.add("trabajo");
+        habilidades[7].classList.add("creatividad");
+        habilidades[8].classList.add("dedicacion");
+     
     }
 }
 
