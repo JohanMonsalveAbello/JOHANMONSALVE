@@ -9,6 +9,14 @@ h4{
     font-size: 2vw;
     
 }
+.pf{
+    display: block;
+    padding: 9vw;
+}
+.proyecto--api{
+    margin: 9vw;
+    width: 30vw;
+}
 .tl{
  color:#fff;
  font-size: 1.4vw;
